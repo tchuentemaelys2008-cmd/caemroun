@@ -171,6 +171,11 @@ nav{position:fixed;top:5px;left:0;right:0;z-index:199;height:60px;padding:0 32px
 .j-word{font-family:'Playfair Display',serif;font-size:.88rem;font-weight:700;color:rgba(237,233,224,.18);letter-spacing:.1em}
 .j-pill{background:var(--red);color:#fff;font-size:.56rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;padding:3px 7px;border-radius:4px}
 
+/* Crédit développeur */
+.footer-credit{width:100%;border-top:1px solid var(--border);margin-top:6px;padding-top:14px;text-align:center;font-size:.72rem;color:rgba(237,233,224,.35)}
+.footer-credit a{color:var(--yellow);text-decoration:none;font-weight:600;transition:color .2s,opacity .2s}
+.footer-credit a:hover{color:#fff;opacity:1;text-decoration:underline}
+
 #toast-container{position:fixed;bottom:22px;right:18px;z-index:9999;display:flex;flex-direction:column;gap:7px;align-items:flex-end;pointer-events:none}
 .toast{background:rgba(12,12,12,.97);border:1px solid var(--border);border-left:3px solid var(--yellow);border-radius:10px;padding:11px 16px;display:flex;align-items:center;gap:9px;font-size:.8rem;font-weight:500;max-width:275px;min-width:170px;backdrop-filter:blur(20px);box-shadow:0 8px 28px rgba(0,0,0,.5);animation:toastIn .3s cubic-bezier(.34,1.4,.64,1)}
 .toast svg{width:14px;height:14px;flex-shrink:0}
@@ -492,6 +497,10 @@ nav{position:fixed;top:5px;left:0;right:0;z-index:199;height:60px;padding:0 32px
     </div>
   </div>
   <div class="footer-right" data-fr="Ensemble, faisons la difference." data-en="Together, let us make a difference.">Ensemble, faisons la difference.</div>
+  <div class="footer-credit">
+    <span data-fr="Developpe par" data-en="Developed by">Developpe par</span>
+    <a href="https://xhrisfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Xhris Dior</a>
+  </div>
 </footer>
 
 <script>
